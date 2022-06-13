@@ -57,14 +57,14 @@ export default function App() {
       </ParallaxLayer>
 
       <ParallaxLayer
-        offset={8.5}
+        offset={8.7}
         // factor={size.x >= 1024 ? 1 : 0.4}
       >
         <Skills />
       </ParallaxLayer>
 
       <ParallaxLayer
-        offset={9.5}
+        offset={9.6}
         // factor={size.x >= 1024 ? 1 : 0.5}
       >
         <Contacts size={size.x} />

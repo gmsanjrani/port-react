@@ -4,21 +4,21 @@ import img2 from "../../assets/Images/ecom/ecomDetails.png";
 import img3 from "../../assets/Images/ecom/ecomFooter.png";
 import img4 from "../../assets/Images/ecom/ecomCart.png";
 
-import { Parallax, ParallaxLayer } from "@react-spring/parallax";
+import { ParallaxLayer } from "@react-spring/parallax";
 
 function EcomImages({ size }) {
   return (
     <div className=" absolute w-[70%] md:w-1/2 h-screen right-0 top-0 ">
       <div className=" w-full flex h-full relative">
         <div className=" w-1/2 h-full">
-          <ParallaxLayer offset={2.5} speed={size >= 1024 ? 1.2 : 1.5}>
+          <ParallaxLayer offset={2.5} speed={ 1.2 }>
             <img
               src={img1}
               alt="nothing"
               className=" w-[200px] md:w-[250px]"
             />
           </ParallaxLayer>
-          <ParallaxLayer offset={2.9} speed={size >= 1024 ? 1 : 1.3}>
+          <ParallaxLayer offset={2.9} speed={ 1 }>
             <img
               src={img2}
               alt="image2"
@@ -27,14 +27,14 @@ function EcomImages({ size }) {
           </ParallaxLayer>
         </div>
         <div className=" w-1/2 h-full absolute left-1/2 top-1/2">
-          <ParallaxLayer offset={2.5} speed={size>=1024?1.3:1.6}>
+          <ParallaxLayer offset={2.5} speed={1.3}>
             <img
               src={img3}
               alt="nothing"
               className=" w-[200px] md:w-[250px]"
             />
           </ParallaxLayer>
-          <ParallaxLayer offset={2.9} speed={size>=1024?1.1:1.4}>
+          <ParallaxLayer offset={2.9} speed={1.1}>
             <img
               src={img4}
               alt="image2"
