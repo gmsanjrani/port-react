@@ -33,38 +33,38 @@ export default function App() {
        
       <ParallaxLayer
         sticky={{
-          start: size.x >= 1024 ? 1.5 : 1,
-          end: size.x >= 1024 ? 3.5 : 3,
+          start:1.5,
+          end:3.5,
         }}
       >
         <Heroku size={size.x} />
       </ParallaxLayer>
       <ParallaxLayer
         sticky={{
-          start: size.x >= 1024 ? 3.5 : 3,
-          end: size.x >= 1024 ? 5.5 : 5,
+          start: 3.5,
+          end: 5.5 ,
         }}
       >
         <Ecommerce size={size.x} />
       </ParallaxLayer>
       <ParallaxLayer
         sticky={{
-          start: size.x >= 1024 ? 5.5 : 5,
-          end: size.x >= 1024 ? 7.5 : 7,
+          start: 5.5 ,
+          end:7.5,
         }}
       >
         <Portfolio size={size.x} />
       </ParallaxLayer>
 
       <ParallaxLayer
-        offset={size.x >= 1024 ? 8.5 : 7.8}
+        offset={8.5}
         // factor={size.x >= 1024 ? 1 : 0.4}
       >
         <Skills />
       </ParallaxLayer>
 
       <ParallaxLayer
-        offset={size.x >= 1024 ? 9.5 : 8.5}
+        offset={9.5}
         // factor={size.x >= 1024 ? 1 : 0.5}
       >
         <Contacts size={size.x} />
