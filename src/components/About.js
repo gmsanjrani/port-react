@@ -4,8 +4,8 @@ import { ParallaxLayer } from "@react-spring/parallax";
 function About() {
 
   return (
-    <section className=" h-[50vh] w-full flex flex-row flex-nowrap justify-center items-center
-                lg:h-[60vh] relative overflow-hidden" >
+    <section className=" h-[60vh] w-full flex flex-row flex-nowrap justify-center items-center
+                 relative overflow-hidden" >
       
       <ParallaxLayer horizontal offset={-0.7} speed={-0.7} factor={1}>
         
